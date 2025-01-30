@@ -2,7 +2,7 @@ const express = require('express');
 const app = express(); 
 
 app.get('/', (req, res) => { 
-    res.send('Hello, World! Deployed with Heroku'); 
+    res.send('Hello, World! Deployed with Heroku.\nUpdated feature'); 
 }); 
 
 const PORT = process.env.PORT || 3000; 
